@@ -3,4 +3,11 @@ Because if system produce same url for same domain that would be guessable.
 How I generated slug?
 I used SecureRandom method of rails that is simply used for random code generation and it fulfilled my requirement
 
-Download it from google drive or clone this repository
+Download it from google drive or clone this repository.
+How to Run:
+cd shorturl.
+bundle install
+rake db:create
+rake db:migrate
+rails s
+
