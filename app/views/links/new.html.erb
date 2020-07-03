@@ -1,0 +1,7 @@
+<h1>Urls#new</h1>
+<p>Find me in app/views/urls/new.html.erb</p>
+<%= flash[:error] %>
+<%= form_with model: @url do |form| %>
+    <p>Please input url you want to shorten: <%= form.text_field :url %></p>
+    <%= form.submit %>
+<% end %>
